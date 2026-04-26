@@ -101,9 +101,6 @@ Com este framework configurado, o GitHub Copilot reconhece "gatilhos" técnicos 
 * **Concordância Técnica:** Os termos foram ajustados para que a IA entenda exatamente a ação (verbo) e o objeto (substantivo) da solicitação.
 * **Padronização:** Garante que o código do **"Plantão"** ou do **"Laços Diários"** mantenha a mesma qualidade profissional.
 * **Eficiência:** Evita ambiguidades, fazendo com que o Copilot entregue a solução correta logo na primeira tentativa.
----
-
-### 💡 Por que usar estes prompts?
 * **Contexto Imediato:** Você não precisa explicar o que é SOLID ou Clean Architecture todas as vezes; o Copilot já sabe o que fazer consultando o ficheiro de instruções.
 * **Consistência:** Garante que, quer estejas trabalhando em um projeto chamado **"Plantão"** ou no **"Laços Diários"**, o padrão de código seja o mesmo.
 * **Qualidade Sênior:** Força a IA a evitar soluções "preguiçosas" e a entregar código pronto para produção (Enterprise-Grade).
