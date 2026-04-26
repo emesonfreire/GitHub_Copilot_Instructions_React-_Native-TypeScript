@@ -17,14 +17,34 @@ Transformar o Copilot em um parceiro de pair programming que domina:
 
 ---
 
-## 🛠️ Como Configurar no Projeto
+🛠️ Como Configurar no VS Code (Passo a Passo)
+Para que o GitHub Copilot assuma a persona de Engenheiro Sênior e aplique as regras automaticamente, siga estas etapas:
 
-Para que o Copilot siga as regras automaticamente, o arquivo de instruções deve estar no local correto:
+1. Preparação do Ambiente
+Certifique-se de que você tem a extensão GitHub Copilot ou GitHub Copilot Chat instalada no seu VS Code.
 
-1. Clone este repositório.
-2. Certifique-se de que o arquivo `.github/copilot-instructions.md` existe.
-3. No VS Code, o Copilot lerá este arquivo e passará a sugerir códigos dentro dos padrões definidos.
+2. Criação da Estrutura
+O segredo está na localização do arquivo. O Copilot busca instruções específicas dentro da pasta oculta .github.
 
+Na raiz do seu projeto, crie uma pasta chamada .github (não esqueça o ponto inicial).
+
+Dentro dela, crie um arquivo chamado copilot-instructions.md.
+
+3. Implementação das Regras
+Copie todo o conteúdo do framework (Persona, SOLID, Clean Arch) e cole dentro desse arquivo.
+
+Salve o arquivo.
+
+4. Ativação
+Não é necessário rodar comandos. O VS Code detecta o arquivo automaticamente, mas para garantir a indexação imediata:
+
+Pressione Ctrl + Shift + P (Windows/Linux) ou Cmd + Shift + P (Mac).
+
+Digite Developer: Reload Window e dê Enter.
+
+Abra o chat do Copilot (Ctrl + I ou no painel lateral) e comece a digitar.
+
+💡 Dica de Ouro: Para confirmar que ele está lendo as regras, pergunte no chat: "Qual é a sua stack obrigatória e persona para este projeto?". Se ele responder "Engenheiro Sênior especializado em React Native e Clean Architecture", a configuração foi um sucesso!
 ---
 
 ## 🏗️ Estrutura de Camadas (Clean Arch)
