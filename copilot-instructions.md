@@ -1673,5 +1673,5 @@ Como o código segue Clean Architecture, SOLID e as convenções desta stack.
 ---
 
 *Prompt gerado por: Engenheiro Mobile Sênior · React Native / TypeScript*
-*Versão: v1.0 · Baseado no rigor do prompt de automação Python v3*
+*Versão: v1.0 ·*
 *Compatível com: VS Code + GitHub Copilot Chat + copilot-instructions.md*
