@@ -17,7 +17,7 @@ Transformar o Copilot em um parceiro de pair programming que domina:
 
 ---
 
-##🛠️ Como Configurar no VS Code (Passo a Passo)
+###🛠️ Como Configurar no VS Code (Passo a Passo)
 Para que o GitHub Copilot assuma a persona de Engenheiro Sênior e aplique as regras automaticamente, siga estas etapas:
 
 1. Preparação do Ambiente:
