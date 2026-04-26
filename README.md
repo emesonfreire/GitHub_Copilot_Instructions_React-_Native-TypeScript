@@ -78,23 +78,29 @@ Sempre que solicitar algo ao Copilot, ele seguirá estas diretrizes:
 
 ### 🚀 Exemplos de Uso (Engenharia de Prompt)
 
-Com este framework configurado, o GitHub Copilot passa a reconhecer "gatilhos" técnicos. Aqui estão 5 exemplos de prompts que podes copiar e colar no Chat do Copilot para obter resultados de nível Sênior:
+Com este framework configurado, o GitHub Copilot reconhece "gatilhos" técnicos específicos. Utilize os exemplos abaixo para obter resultados de nível Sênior:
 
-#### 1. 🧪 TDD & Lógica de Negócio (Camada Domain)
-> "Preciso de criar o Use Case para **[NOME DA FEATURE]**. Seguindo a **Parte 4.4**, gera primeiro os testes unitários simulando sucesso e erro de repositório. Após a minha aprovação, gera a implementação da classe no Domain."
+#### 1. 🧪 TDD e Lógica de Negócio (Camada Domain)
+> "Preciso criar o Caso de Uso para **[NOME DA FEATURE]**. Seguindo a **Parte 4.4**, gere primeiro os testes unitários simulando sucesso e erro de repositório. Após a minha aprovação, implemente a classe correspondente no Domain."
 
 #### 2. 🧹 Refatoração SOLID (Clean Code)
-> "Este componente violou o limite de linhas da **Parte 1.4**. Atua como Engenheiro Sênior e extrai a lógica para um **Custom Hook** e divide a UI em sub-componentes atômicos seguindo o princípio SRP."
+> "Este componente violou o limite de linhas estabelecido na **Parte 1.4**. Atue como Engenheiro Sênior: extraia a lógica para um **Hook Personalizado** e divida a interface em subcomponentes atômicos, respeitando o princípio de responsabilidade única (SRP)."
 
-#### 3. 🔐 Segurança & Infraestrutura (Data Layer)
-> "Implementa a persistência de credenciais na camada de Infrastructure. Usa obrigatoriamente o **SecureStorage** e garante que qualquer log gerado passe pela função **maskSensitive()** conforme a **Parte 10**."
+#### 3. 🔐 Segurança e Infraestrutura (Data Layer)
+> "Implemente a persistência de credenciais na camada de Infrastructure. Utilize obrigatoriamente o **SecureStorage** e garanta que qualquer log gerado passe pela função **maskSensitive()**, conforme as diretrizes da **Parte 10**."
 
 #### 4. ♿ Acessibilidade e UI (WCAG 2.2)
-> "Gera um componente de **[BOTÃO/INPUT]** seguindo a **Parte 12**. Garante área de toque mínima de 48dp, suporte a Dynamic Type (fontes do sistema) e `accessibilityLabel` descritivo."
+> "Gere um componente de **[BOTÃO/INPUT]** seguindo a **Parte 12**. Garanta uma área de toque mínima de 48dp, suporte a tipos dinâmicos (fontes do sistema) e um `accessibilityLabel` que seja devidamente descritivo."
 
 #### 5. ⚡ Otimização de Performance (Mobile First)
-> "A minha lista de **[DADOS]** está com baixo FPS ao fazer scroll. Aplica as otimizações da **Parte 11**: implementa `getItemLayout`, `React.memo` e configura o `windowSize` para máxima performance."
+> "A minha lista de **[DADOS]** apresenta baixo desempenho durante a rolagem. Aplique as otimizações da **Parte 11**: implemente `getItemLayout` e `React.memo`, e configure o `windowSize` para garantir a máxima performance mobile."
 
+---
+
+### 💡 Por que utilizar estes prompts?
+* **Concordância Técnica:** Os termos foram ajustados para que a IA entenda exatamente a ação (verbo) e o objeto (substantivo) da solicitação.
+* **Padronização:** Garante que o código do **"Plantão"** ou do **"Laços Diários"** mantenha a mesma qualidade profissional.
+* **Eficiência:** Evita ambiguidades, fazendo com que o Copilot entregue a solução correta logo na primeira tentativa.
 ---
 
 ### 💡 Por que usar estes prompts?
