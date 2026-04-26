@@ -19,22 +19,22 @@ Transformar o Copilot em um parceiro de pair programming que domina:
 
 ##🛠️ Como Configurar no VS Code (Passo a Passo)
 Para que o GitHub Copilot assuma a persona de Engenheiro Sênior e aplique as regras automaticamente, siga estas etapas:
-
+---
 ###1. Preparação do Ambiente
 Certifique-se de que você tem a extensão GitHub Copilot ou GitHub Copilot Chat instalada no seu VS Code.
-
+---
 ###2. Criação da Estrutura
 O segredo está na localização do arquivo. O Copilot busca instruções específicas dentro da pasta oculta .github.
 
 Na raiz do seu projeto, crie uma pasta chamada .github (não esqueça o ponto inicial).
 
 Dentro dela, crie um arquivo chamado copilot-instructions.md.
-
+---
 ###3. Implementação das Regras
 Copie todo o conteúdo do framework (Persona, SOLID, Clean Arch) e cole dentro desse arquivo.
 
 Salve o arquivo.
-
+---
 ###4. Ativação
 Não é necessário rodar comandos. O VS Code detecta o arquivo automaticamente, mas para garantir a indexação imediata:
 
