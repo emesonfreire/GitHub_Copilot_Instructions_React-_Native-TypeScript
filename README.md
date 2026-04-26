@@ -76,6 +76,31 @@ Sempre que solicitar algo ao Copilot, ele seguirá estas diretrizes:
 
 > *"Crie a funcionalidade de Login. Comece definindo a interface no Domain, mapeie os erros de autenticação conforme a Parte 8 das instruções e gere a implementação do repositório usando Axios."*
 
+*"1. Prompt de TDD (Test-Driven Development)
+Este recurso força o Copilot a criar o teste antes da lógica, garantindo 100% de cobertura na camada de domínio.
+
+"Preciso criar um Use Case para 'Finalizar Treino'. Seguindo a Parte 4.4 do nosso framework, gere primeiro os testes unitários (.test.ts) simulando sucesso e falha de persistência. Após eu validar os testes, gere a implementação da classe FinishWorkoutUseCase no Domain."
+
+2. Prompt de Refatoração para SOLID
+Ideal para quando você tem um componente "God" (muito grande) e quer dividi-lo seguindo o princípio SRP (Responsabilidade Única).
+
+"Este componente de 'Perfil do Usuário' está com 200 linhas, violando a Parte 1.4. Atue como Engenheiro Sênior e extraia a lógica de busca de dados para um Custom Hook e divida a UI em sub-componentes (Avatar, Info, Stats). Mantenha a tipagem estrita."
+
+3. Prompt de Segurança e Infraestrutura
+Utiliza o recurso de conformidade do seu framework para garantir que dados sensíveis não vazem.
+
+"Implemente o método saveAuthToken na camada de Infrastructure. Use obrigatoriamente o SecureStorage conforme a Parte 10 e garanta que, ao logar o sucesso da operação, o token passe pela função maskSensitive() antes de ir para o logger."
+
+4. Prompt de UI/UX com Acessibilidade (WCAG)
+Força a IA a gerar componentes que respeitam as normas de acessibilidade mobile.
+
+"Gere um componente de Input customizado para o formulário de cadastro. Ele deve seguir a Parte 12: ter accessibilityLabel dinâmico, área de toque mínima e suporte a Dynamic Type para usuários que usam fontes grandes no sistema."
+
+5. Prompt de Diagnóstico de Performance
+Excelente para analisar listas pesadas ou gargalos de renderização.
+
+"Analise este FlatList que renderiza os exercícios do usuário. Ele está travando ao rolar. Aplique as otimizações da Parte 11: implemente getItemLayout, use React.memo no item da lista e configure as propriedades de windowSize e initialNumToRender para máxima performance."*
+
 ---
 
 ## 👨‍💻 Autor
