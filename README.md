@@ -76,31 +76,31 @@ Sempre que solicitar algo ao Copilot, ele seguirá estas diretrizes:
 
 > *"Crie a funcionalidade de Login. Comece definindo a interface no Domain, mapeie os erros de autenticação conforme a Parte 8 das instruções e gere a implementação do repositório usando Axios."*
 
-*"1. Prompt de TDD (Test-Driven Development)
-Este recurso força o Copilot a criar o teste antes da lógica, garantindo 100% de cobertura na camada de domínio.
+### 🚀 Exemplos de Uso (Engenharia de Prompt)
 
-"Preciso criar um Use Case para 'Finalizar Treino'. Seguindo a Parte 4.4 do nosso framework, gere primeiro os testes unitários (.test.ts) simulando sucesso e falha de persistência. Após eu validar os testes, gere a implementação da classe FinishWorkoutUseCase no Domain."
+Com este framework configurado, o GitHub Copilot passa a reconhecer "gatilhos" técnicos. Aqui estão 5 exemplos de prompts que podes copiar e colar no Chat do Copilot para obter resultados de nível Sênior:
 
-2. Prompt de Refatoração para SOLID
-Ideal para quando você tem um componente "God" (muito grande) e quer dividi-lo seguindo o princípio SRP (Responsabilidade Única).
+#### 1. 🧪 TDD & Lógica de Negócio (Camada Domain)
+> "Preciso de criar o Use Case para **[NOME DA FEATURE]**. Seguindo a **Parte 4.4**, gera primeiro os testes unitários simulando sucesso e erro de repositório. Após a minha aprovação, gera a implementação da classe no Domain."
 
-"Este componente de 'Perfil do Usuário' está com 200 linhas, violando a Parte 1.4. Atue como Engenheiro Sênior e extraia a lógica de busca de dados para um Custom Hook e divida a UI em sub-componentes (Avatar, Info, Stats). Mantenha a tipagem estrita."
+#### 2. 🧹 Refatoração SOLID (Clean Code)
+> "Este componente violou o limite de linhas da **Parte 1.4**. Atua como Engenheiro Sênior e extrai a lógica para um **Custom Hook** e divide a UI em sub-componentes atômicos seguindo o princípio SRP."
 
-3. Prompt de Segurança e Infraestrutura
-Utiliza o recurso de conformidade do seu framework para garantir que dados sensíveis não vazem.
+#### 3. 🔐 Segurança & Infraestrutura (Data Layer)
+> "Implementa a persistência de credenciais na camada de Infrastructure. Usa obrigatoriamente o **SecureStorage** e garante que qualquer log gerado passe pela função **maskSensitive()** conforme a **Parte 10**."
 
-"Implemente o método saveAuthToken na camada de Infrastructure. Use obrigatoriamente o SecureStorage conforme a Parte 10 e garanta que, ao logar o sucesso da operação, o token passe pela função maskSensitive() antes de ir para o logger."
+#### 4. ♿ Acessibilidade e UI (WCAG 2.2)
+> "Gera um componente de **[BOTÃO/INPUT]** seguindo a **Parte 12**. Garante área de toque mínima de 48dp, suporte a Dynamic Type (fontes do sistema) e `accessibilityLabel` descritivo."
 
-4. Prompt de UI/UX com Acessibilidade (WCAG)
-Força a IA a gerar componentes que respeitam as normas de acessibilidade mobile.
+#### 5. ⚡ Otimização de Performance (Mobile First)
+> "A minha lista de **[DADOS]** está com baixo FPS ao fazer scroll. Aplica as otimizações da **Parte 11**: implementa `getItemLayout`, `React.memo` e configura o `windowSize` para máxima performance."
 
-"Gere um componente de Input customizado para o formulário de cadastro. Ele deve seguir a Parte 12: ter accessibilityLabel dinâmico, área de toque mínima e suporte a Dynamic Type para usuários que usam fontes grandes no sistema."
+---
 
-5. Prompt de Diagnóstico de Performance
-Excelente para analisar listas pesadas ou gargalos de renderização.
-
-"Analise este FlatList que renderiza os exercícios do usuário. Ele está travando ao rolar. Aplique as otimizações da Parte 11: implemente getItemLayout, use React.memo no item da lista e configure as propriedades de windowSize e initialNumToRender para máxima performance."*
-
+### 💡 Por que usar estes prompts?
+* **Contexto Imediato:** Tu não precisas de explicar o que é SOLID ou Clean Architecture todas as vezes; o Copilot já sabe o que fazer consultando o ficheiro de instruções.
+* **Consistência:** Garante que, quer estejas a trabalhar no **"Plantão"** ou no **"Laços Diários"**, o padrão de código seja o mesmo.
+* **Qualidade Sênior:** Força a IA a evitar soluções "preguiçosas" e a entregar código pronto para produção (Enterprise-Grade).
 ---
 
 ## 👨‍💻 Autor
