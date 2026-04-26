@@ -104,11 +104,11 @@ Com este framework configurado, o GitHub Copilot reconhece "gatilhos" técnicos 
 ---
 
 ### 💡 Por que usar estes prompts?
-* **Contexto Imediato:** Tu não precisas de explicar o que é SOLID ou Clean Architecture todas as vezes; o Copilot já sabe o que fazer consultando o ficheiro de instruções.
-* **Consistência:** Garante que, quer estejas a trabalhar no **"Plantão"** ou no **"Laços Diários"**, o padrão de código seja o mesmo.
+* **Contexto Imediato:** Você não precisa explicar o que é SOLID ou Clean Architecture todas as vezes; o Copilot já sabe o que fazer consultando o ficheiro de instruções.
+* **Consistência:** Garante que, quer estejas trabalhando em um projeto chamado **"Plantão"** ou no **"Laços Diários"**, o padrão de código seja o mesmo.
 * **Qualidade Sênior:** Força a IA a evitar soluções "preguiçosas" e a entregar código pronto para produção (Enterprise-Grade).
 ---
 
 ## 👨‍💻 Autor
 
-**Emerson Mathias** *Systems Analyst & Mobile Developer* Especialista em TI Infrastructure e Engenharia de Redes.
+**Emeson Freire** *AI Developer | Prompt Engineer | LLM & Automação com IA | Suporte de Infraestrutura de TI & Redes | analista de sistemas | PCD* Especialista em TI Infrastructure e Engenharia de Redes.
